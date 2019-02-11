@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "open with nhentai",
+  "description": "open nhentai from code",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab",
+	"https://*.instagram.com/*",
+	"https://instagram.com/*",
+	"https://*.twitter.com/*",
+	"https://twitter.com/*",
+	"https://*.facebook.com/*",
+	"https://facebook.com/*",
+    "https://*.reddit.com/*",
+    "https://reddit.com/*",
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "open-with-nhentai.js"
+    ]
+  },
+  "web_accessible_resources": [
+    "open-with-nhentai.js"
+  ],
+  "icons": {
+    "16": "nh.png",
+    "48": "nh.png",
+    "128": "nh.png"
+  }
+}
